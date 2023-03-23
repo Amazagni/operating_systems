@@ -1,0 +1,2 @@
+Real time using 1024 Bajts: 130269 ns
+Real time using 1 Bajt: 353564 ns 

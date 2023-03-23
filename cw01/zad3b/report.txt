@@ -1,0 +1,45 @@
+STATIC
+-O0
+TOTAL time real: 13562174 ns, user: 0 t, system: 0 t
+-O1
+TOTAL time real: 14495157 ns, user: 0 t, system: 0 t
+-O2
+TOTAL time real: 11053862 ns, user: 0 t, system: 0 t
+-O3
+TOTAL time real: 9961288 ns, user: 0 t, system: 0 t
+-Os
+TOTAL time real: 14695812 ns, user: 0 t, system: 0 t
+
+SHARED
+-O0
+TOTAL time real: 18387092 ns, user: 0 t, system: 0 t
+-O1
+TOTAL time real: 12083518 ns, user: 0 t, system: 0 t
+-O2
+TOTAL time real: 18612883 ns, user: 0 t, system: 0 t
+-O3
+TOTAL time real: 10700366 ns, user: 0 t, system: 0 t
+-Os
+TOTAL time real: 22829315 ns, user: 0 t, system: 0 tS
+
+DYNAMIC
+-O0
+TOTAL time real: 12919118 ns, user: 0 t, system: 0 t
+-O1
+TOTAL time real: 22730059 ns, user: 0 t, system: 0 t
+-O2
+TOTAL time real: 10993358 ns, user: 0 t, system: 0 t
+-O3
+TOTAL time real: 15775825 ns, user: 0 t, system: 0 t
+-Os
+TOTAL time real: 11854584 ns, user: 0 t, system: 0 t
+
+Wnioski:
+
+Przy uzyciu biblioteki statycznej i wspoldzielonej najszybsza okazala sie flaga -O3 z kolei dla
+biblioteki ladowanej dynamicznie flaga -O2
+
+Najmniejsze wahania czasu wystepuja przy uzycu biblioteki statycznej
+
+Przy uzyciu biblioteki wspoldzielonej lub przy ladowaniu dynamicznym dobor flag moze nawet dwukrotnie
+spowolnic dzialanie programu

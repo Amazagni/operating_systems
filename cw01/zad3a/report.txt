@@ -1,0 +1,77 @@
+STATIC
+Initialized array with 500 cells
+Init time real: 11255 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2365725 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2957429 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 1915666 ns, user: 0 t, system: 0 t
+ 139  365 4494 main.c
+Show time real: 1041 ns, user: 0 t, system: 0 t
+ 142  399 4989 mainDynamic.c
+Show time real: 380 ns, user: 0 t, system: 0 t
+  59  147 1319 Makefile
+Show time real: 350 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 370 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 310 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 290 ns, user: 0 t, system: 0 t
+Array has been deleted
+Destroy time real: 5127 ns, user: 0 t, system: 0 t
+TOTAL time real: 7297772 ns, user: 0 t, system: 0 t
+
+SHARED
+Initialized array with 500 cells
+Init time real: 21541 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2203692 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2035523 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2716650 ns, user: 0 t, system: 0 t
+ 139  365 4494 main.c
+Show time real: 2246 ns, user: 0 t, system: 0 t
+ 142  399 4989 mainDynamic.c
+Show time real: 973 ns, user: 0 t, system: 0 t
+  59  147 1319 Makefile
+Show time real: 772 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 1022 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 702 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 692 ns, user: 0 t, system: 0 t
+Array has been deleted
+Destroy time real: 11408 ns, user: 0 t, system: 0 t
+TOTAL time real: 7061937 ns, user: 0 t, system: 0 t
+
+DYNAMIC
+Initialized array with 500 cells
+Init time real: 12187 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2582073 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2516293 ns, user: 0 t, system: 0 t
+Info has been loaded to array
+Count time real: 2105026 ns, user: 0 t, system: 0 t
+ 139  365 4494 main.c
+Show time real: 1141 ns, user: 0 t, system: 0 t
+ 142  399 4989 mainDynamic.c
+Show time real: 641 ns, user: 0 t, system: 0 t
+  59  147 1319 Makefile
+Show time real: 550 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 681 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 530 ns, user: 0 t, system: 0 t
+Cell has been deleted
+Delete time real: 501 ns, user: 0 t, system: 0 t
+Array has been deleted
+Destroy time real: 5077 ns, user: 0 t, system: 0 t
+TOTAL time real: 7319973 ns, user: 0 t, system: 0 t
+
+Wnioski:
+Program wykorzystujacy trzy rozne biblioteki wykonuje sie w bardzo zblizonym czasie

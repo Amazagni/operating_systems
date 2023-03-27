@@ -1,0 +1,24 @@
+SA_SIGINFO
+Parent: PID: 2811, SIG_NO: 10, STATUS: 0, UID: 1000, SIG VAL: 0
+Child: PID: 2812, SIG_NO: 10, STATUS: 0, UID: 1000, SIG VAL: 0
+
+
+SA_NODEFER - Jesli proces otrzyma dwa takie same sygnaly to jeden wykonuje sie dopiero po
+zakonczeniu pierwszego, SA_NODEFER zapobiega takiemu blokowaniu, przez co sygnal wykonuje sie
+jeszcze przed zakonczeniem poprzednika
+
+WITH SA_NODEFER
+[In handler] id:1 depth:1
+[In handler] id:2 depth:2
+[In handler] id:3 depth:3
+[In handler] id:4 depth:4
+WITHOUT SA_NODEFER
+[In handler] id:1 depth:1
+[In handler] id:2 depth:1
+[In handler] id:3 depth:1
+[In handler] id:4 depth:1
+
+
+SA_RESETHAND - Resetuje Handler
+First usage: [In handler] id:5 depth:1
+User defined signal 1

@@ -1,0 +1,9 @@
+Fork:
+Ignore dziedziczy
+Handler dziedziczy
+Mask dziedziczy
+Pending nie dziedziczy
+Exec:
+Ignore dziedziczy
+Mask dziedziczy
+Pending dziedziczy

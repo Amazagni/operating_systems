@@ -1,0 +1,6 @@
+Value of the integral: 3.141592
+Time using 1 processes: 38s
+Value of the integral: 3.141594
+Time using 10 processes: 13s
+Value of the integral: 3.141592
+Time using 5 processes: 13s

@@ -1,0 +1,10 @@
+Value of the integral: 3.141592
+Time using 1 processes: 34s
+
+Value of the integral: 3.141592
+Time using 5 processes: 12s
+
+Value of the integral: 3.141592
+Time using 10 processes: 9s
+
+Nie jest zaskoczeniem, ze wraz ze wzrostem procesow maleje czas poswiecony na wykonanie programu.

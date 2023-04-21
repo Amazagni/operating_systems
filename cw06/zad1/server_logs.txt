@@ -1,0 +1,13 @@
+Thu Apr 20 15:11:53 2023, New client added 
+Thu Apr 20 15:12:02 2023, New client added 
+Thu Apr 20 15:12:05 2023, New client added 
+Thu Apr 20 15:12:07 2023, ClientID: 2,  Listed all clients 
+Thu Apr 20 15:12:34 2023, ClientID: 2,  Sent a message to all 
+Thu Apr 20 15:12:50 2023, ClientID: 2,  Sent a message to 1 
+Thu Apr 20 15:12:51 2023, ClientID: 2,  Closed 
+Thu Apr 20 15:12:51 2023, ClientID: 2,  Closed 
+Thu Apr 20 15:12:54 2023, ClientID: 1,  Closed 
+Thu Apr 20 15:12:54 2023, ClientID: 1,  Closed
+Thu Apr 20 15:12:54 2023, ClientID: 0,  Closed
+Thu Apr 20 15:12:54 2023, ClientID: 0,  Closed
+Server closing... 
